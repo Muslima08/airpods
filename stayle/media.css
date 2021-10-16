@@ -1,0 +1,144 @@
+@media(max-width:1099px){
+    .about , .navv {
+        justify-content: space-around;
+    }
+    .container{
+        padding: 0 20px;
+    }
+    .main-cards{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media(max-width:768px){
+    .header-title{
+        font-size: 90px;
+    }
+    .img{
+        width:350px;
+        height: 240px;
+        padding-left: 10px;
+    }
+    .top-des{
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .img1{
+        width:380px;
+        height: 255px;
+    }
+    .center-des{
+        margin-top: 155px;
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .main-center{
+        margin-top: 30px;
+    }
+    .img2{
+        width: 190px;
+        height: 275px;
+    }
+    .bottom-left{
+        font-size: 16px;
+        margin-top: 120px;
+    }
+    .bottom-right{
+        font-size: 16px;
+        margin-top: 97px;
+    }
+}
+@media(max-width:425px){
+    .about{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+       
+    }
+    .header-title{
+        font-size: 60px;
+    }
+    .header-link{
+        font-size: 18px;
+    }
+    .img{
+        width:255px;
+        height: 165px;
+    }
+    .main-top{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .main-center{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .img1{
+        width: 307px;
+        height: 250px;
+        margin-top: 80px;
+    }
+    .center-des{
+        margin-top: 65px;
+    }
+    .main-bottom{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bottom-right{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .img2{
+        margin-bottom: 65px;
+    }
+    .navv{
+        flex-wrap: wrap;
+    }
+    .logoo{
+        margin: 32px 4px;
+    }
+    .link{
+        padding: 10px 10px;
+    }
+    .shop , .seach{
+        padding-top: 5px;
+    }
+    .bottom-left , .bottom-right{
+        text-align: center;
+    }
+}
+@media(max-width:375px){
+    .header-title{
+        font-size: 50px;
+    }
+    .top-des , .center-des{
+        font-size: 17px;
+    }
+    .list1{
+        margin-bottom: 20px;
+    }
+
+}
+@media(max-width:320px){
+    .nav{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo {
+        margin: 15px 4px;
+    }
+    .list{
+        margin: 8px 4px;
+    }
+    .header-title{
+        font-size: 45px;
+    }
+    .img4::after , .img4::before{
+        width: 45px;
+    }
+    .img2{
+        width: 170px ;
+        height: 245px;
+    }
+}
